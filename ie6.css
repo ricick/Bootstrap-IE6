@@ -105,3 +105,25 @@ ul.thumbnails {margin-left:-20px;float:none;display:inline-block;zoom:1;clear:bo
 /* Modal */
 .modal {position:relative;filter:alpha(opacity=99);top: 55%}
     .modal-header a.close {cursor: pointer}
+
+/* Pills */
+.nav-pills{
+}
+.nav-pills li{
+    display:inline;
+    margin-right 2px;
+    zoom:1;
+}
+.nav-pills li a{
+    padding:8px 12px 8px 12px;
+}
+.nav-pills li a:hover{
+    background-color: #eeeeee;
+}
+.nav-pills .active{
+    background-color: #0088cc;
+    color:#FFFFFF;
+}
+.nav-pills .active a{
+    color:#FFFFFF;
+}
